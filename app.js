@@ -32,3 +32,6 @@ function fetchMemes(){
     });
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+    fetchMemes();
+})
